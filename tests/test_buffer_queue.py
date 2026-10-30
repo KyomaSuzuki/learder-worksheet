@@ -47,6 +47,28 @@ class QueueTests(unittest.TestCase):
         api, _ = self.setup_run({'receipts': {}}, posts, True)
         api.assert_not_called()
 
+    def test_intent_is_saved_before_creation_and_second_run_is_idempotent(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / 'state.json'
+            path.write_text(json.dumps({'receipts': {}}))
+            remote = []
+            def save(state):
+                path.write_text(json.dumps(state))
+            def create(query, variables):
+                payload = variables['input']
+                persisted = json.loads(path.read_text())
+                self.assertTrue(any(r['status'] == 'pending' and r['text'] == payload['text'] for r in persisted['receipts'].values()))
+                post = dict(id=str(len(remote)), text=payload['text'], dueAt=payload['dueAt'], status='buffer')
+                remote.append(post)
+                return {'createPost': {'__typename': 'PostActionSuccess', 'post': post}}
+            with patch.object(q, 'STATE', path), patch.object(q, 'channel', return_value={'id': 'x'}), patch.object(q, 'all_posts', side_effect=lambda c: list(remote)), patch.object(q, 'checkpoint', side_effect=save), patch.object(q, 'api', side_effect=create) as api:
+                now = dt.datetime(2026, 10, 30, 11, tzinfo=dt.timezone.utc)
+                q.run(True, now)
+                self.assertEqual(len(remote), 7)
+                q.run(True, now)
+                self.assertEqual(api.call_count, 7)
+                self.assertEqual(len(remote), 7)
+
     def test_account_switch_stops(self):
         with self.assertRaisesRegex(RuntimeError, 'Channel changed'):
             self.setup_run({'receipts': {}, 'channel_id': 'other'}, [], True)
