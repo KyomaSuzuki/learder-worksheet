@@ -27,7 +27,8 @@
     "05A": {
       "text": "直前になって「あれやってない！」が出る人へ\n\n「作業分解シート」を無料で公開しました。意味・狙い・効果と記入例つき。印刷して書き込めます。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/\n#イベント運営 #学生団体",
       "dueAt": "2026-11-04T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6ae489ec14812ff5967cc495"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
