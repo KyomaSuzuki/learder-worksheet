@@ -33,7 +33,8 @@
     "06A": {
       "text": "代替わりで去年のやり方が消える問題、あるある\n\n「引き継ぎシート」を無料で公開しました。意味・狙い・効果と記入例つき。印刷して書き込めます。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/\n#イベント運営 #学生団体",
       "dueAt": "2026-11-05T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6ae489eec56bf7afb3b353d8"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
