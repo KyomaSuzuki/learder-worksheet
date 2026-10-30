@@ -15,7 +15,8 @@
     "03A": {
       "text": "ガクチカが「頑張りました」で終わる人へ\n\n「経験の言語化シート」を無料で公開しました。意味・狙い・効果と記入例つき。印刷して書き込めます。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/\n#就活 #ガクチカ",
       "dueAt": "2026-11-02T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6ae489e780f61ee51917a298"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
