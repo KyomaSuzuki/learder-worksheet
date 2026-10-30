@@ -37,12 +37,12 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
       - name: Check connection and preview
         env:
-          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_API_KEY: ${{ secrets.WORKSHEET_AUTO_POST }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
         run: python3 scripts/buffer_queue.py
       - name: Reserve next seven mornings
         if: github.event_name != 'workflow_dispatch' || inputs.publish
         env:
-          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_API_KEY: ${{ secrets.WORKSHEET_AUTO_POST }}
           BUFFER_CHANNEL_ID: ${{ vars.BUFFER_CHANNEL_ID }}
         run: python3 scripts/buffer_queue.py --publish
