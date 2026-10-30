@@ -21,7 +21,8 @@
     "04A": {
       "text": "イベント直前に「それ、誰の担当？」が起きる人へ\n\n「役割分担表」を無料で公開しました。意味・狙い・効果と記入例つき。印刷して書き込めます。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/\n#サークル運営 #学生団体",
       "dueAt": "2026-11-03T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6ae489ea1c1ab1e7bc371c98"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
