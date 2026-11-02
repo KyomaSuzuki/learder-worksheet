@@ -525,10 +525,56 @@ h1 {
 
 footer {
     margin-top: 56px;
-    padding-top: 20px;
+    padding: 24px 0 36px;
     border-top: 4px solid var(--ink);
     font-size: 14px;
     color: var(--sub)
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px
+}
+
+.footer-sns {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap
+}
+
+.sns-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    background: #fff;
+    color: var(--ink);
+    border: 2px solid var(--ink);
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 13px;
+    box-shadow: 2px 2px 0 var(--ink);
+    transition: transform .15s, box-shadow .15s, background-color .15s
+}
+
+.sns-link:hover {
+    transform: translate(-1px, -1px);
+    box-shadow: 3px 3px 0 var(--blue);
+    background: var(--mark);
+    color: var(--ink)
+}
+
+.sns-link svg {
+    flex-shrink: 0
+}
+
+.copyright {
+    margin: 0
 }
 
 @media (max-width:900px) {
