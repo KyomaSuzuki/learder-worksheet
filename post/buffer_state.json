@@ -77,6 +77,11 @@
       "dueAt": "2026-11-16T00:00:00Z",
       "status": "scheduled",
       "id": "6af1afb0a1c0ea97f8c0a35c"
+    },
+    "14A": {
+      "text": "最近来なくなったメンバーに、どう声をかける？\n\n「メンバー面談シート」を無料で公開しました。意味・狙い・効果と記入例つき。印刷して書き込めます。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/\n#サークル運営 #学生団体",
+      "dueAt": "2026-11-17T00:00:00Z",
+      "status": "pending"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
