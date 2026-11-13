@@ -99,7 +99,8 @@
     "17A": {
       "text": "「絶対ほしいはず！」は、だいたい外れる\n\n「顧客インタビュー設計」を無料で公開しました。意味・狙い・効果と記入例つき。印刷して書き込めます。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/\n#学生起業 #大学生",
       "dueAt": "2026-11-20T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6af6edab7828e7ae1b03d2c5"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
