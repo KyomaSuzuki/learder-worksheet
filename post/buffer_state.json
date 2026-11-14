@@ -105,7 +105,8 @@
     "18A": {
       "text": "事業アイデアを1枚で説明する方法\n\n「リーンキャンバス」を無料で公開しました。意味・狙い・効果と記入例つき。印刷して書き込めます。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/\n#学生起業 #大学生",
       "dueAt": "2026-11-21T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6af8379978196a0a97581ab8"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
