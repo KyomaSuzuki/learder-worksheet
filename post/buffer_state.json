@@ -117,7 +117,8 @@
     "20A": {
       "text": "プレゼンの話が長くなる人へ。まず「お願い」から決める\n\n「ピッチ構成シート」を無料で公開しました。意味・狙い・効果と記入例つき。印刷して書き込めます。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/\n#学生起業 #大学生",
       "dueAt": "2026-11-23T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6afae7050b49b20d0d0c5c15"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
