@@ -135,7 +135,8 @@
     "23A": {
       "text": "面接で話が長くなる人は、最初の一言を決めよう\n\n「面接想定問答シート」を無料で公開しました。意味・狙い・効果と記入例つき。印刷して書き込めます。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/\n#就活 #ガクチカ",
       "dueAt": "2026-11-26T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6afee05a56a8bceaa9089de6"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
