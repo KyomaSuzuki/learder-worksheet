@@ -147,7 +147,8 @@
     "01B": {
       "text": "【サークルの理念づくりの使い方】\n1. ミッション\n2. ビジョン\n3. バリュー\n\n白紙に書くだけ。幹部で見せ合うところまでがセットです。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/",
       "dueAt": "2026-11-28T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6b017a8bd5eabfb8cc23fba0"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
