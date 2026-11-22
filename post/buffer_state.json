@@ -153,7 +153,8 @@
     "02B": {
       "text": "【サークルのSWOT分析の使い方】\n1. S 強み\n2. W 弱み\n3. O 機会\n4. T 脅威\n\n白紙に書くだけ。幹部で見せ合うところまでがセットです。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/",
       "dueAt": "2026-11-29T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6b02d182846b0ee9077eaa41"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
