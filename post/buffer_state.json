@@ -159,7 +159,8 @@
     "03B": {
       "text": "【経験の言語化シートの使い方】\n1. S 状況\n2. T 課題\n3. A 行動\n4. R 結果\n\n白紙に書くだけ。幹部で見せ合うところまでがセットです。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/",
       "dueAt": "2026-11-30T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6b043534433e6368c8a74408"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
