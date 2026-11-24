@@ -165,7 +165,8 @@
     "04B": {
       "text": "【役割分担表の使い方】\n1. 仕事\n2. 担当\n3. 責任者\n4. 相談・報告\n\n白紙に書くだけ。幹部で見せ合うところまでがセットです。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/",
       "dueAt": "2026-12-01T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6b0594b53bb9f7d3de19d001"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
