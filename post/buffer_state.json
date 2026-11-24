@@ -161,6 +161,11 @@
       "dueAt": "2026-11-30T00:00:00Z",
       "status": "scheduled",
       "id": "6b043534433e6368c8a74408"
+    },
+    "04B": {
+      "text": "【役割分担表の使い方】\n1. 仕事\n2. 担当\n3. 責任者\n4. 相談・報告\n\n白紙に書くだけ。幹部で見せ合うところまでがセットです。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/",
+      "dueAt": "2026-12-01T00:00:00Z",
+      "status": "pending"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
