@@ -171,7 +171,8 @@
     "05B": {
       "text": "【作業分解シートの使い方】\n1. ゴール\n2. 大きな作業\n3. 細かい作業\n\n白紙に書くだけ。幹部で見せ合うところまでがセットです。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/",
       "dueAt": "2026-12-02T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6b06db36d06905498b783277"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
