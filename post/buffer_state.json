@@ -177,7 +177,8 @@
     "06B": {
       "text": "【引き継ぎシートの使い方】\n1. 続けてほしいこと\n2. 失敗と注意点\n3. 資料・連絡先\n4. 後輩へのひとこと\n\n白紙に書くだけ。幹部で見せ合うところまでがセットです。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/",
       "dueAt": "2026-12-03T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6b0827d81ee5febf3edea4c3"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
