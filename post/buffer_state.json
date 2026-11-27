@@ -179,6 +179,11 @@
       "dueAt": "2026-12-03T00:00:00Z",
       "status": "scheduled",
       "id": "6b0827d81ee5febf3edea4c3"
+    },
+    "07B": {
+      "text": "【心理的安全性チェックの使い方】\n1. 今の状態\n2. 原因の仮説\n3. 小さな実験\n\n白紙に書くだけ。幹部で見せ合うところまでがセットです。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/",
+      "dueAt": "2026-12-04T00:00:00Z",
+      "status": "pending"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
