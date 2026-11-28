@@ -189,7 +189,8 @@
     "08B": {
       "text": "【KPT振り返りシートの使い方】\n1. Keep\n2. Problem\n3. Try\n4. 担当と期限\n\n白紙に書くだけ。幹部で見せ合うところまでがセットです。\nhttps://learder-worksheet.hiyokingofheart.workers.dev/",
       "dueAt": "2026-12-05T00:00:00Z",
-      "status": "pending"
+      "status": "scheduled",
+      "id": "6b0abf5b8cbf0dfe50d70524"
     }
   },
   "channel_id": "6ae486d22f1f5ed6481f0edd"
